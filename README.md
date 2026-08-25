@@ -16,7 +16,7 @@ My development work tends to involve existing systems with actual complexity: pl
 
 I'm particularly interested in the point where software stops being abstract and starts representing a physical system.
 
-</td><td width="40%" align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NyerahMT&layout=donut&hide_border=true&langs_count=6" width="100%" /></td>
+</td><td width="40%" align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=NyerahMT&theme=github_dark" width="100%" /></td>
 </tr>
 </table>---
 
@@ -42,10 +42,8 @@ Work involved
 "Filesystem behavior"
 "Performance debugging"
 
-<br><p align="center">
-<img src="https://img.shields.io/badge/C++-Principia-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-<img src="https://img.shields.io/badge/iOS-Port-000000?style=for-the-badge&logo=apple&logoColor=white">
-</p></td><td width="50%" valign="top">Engine Simulator iOS
+<br><p align="center"><img src="https://img.shields.io/badge/C++-Principia-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+<img src="https://img.shields.io/badge/iOS-Port-000000?style=for-the-badge&logo=apple&logoColor=white"></p></td><td width="50%" valign="top">Engine Simulator iOS
 
 Real-time internal combustion engine simulation
 
@@ -63,10 +61,8 @@ Work involved
 "Engine loading"
 "Platform debugging"
 
-<br><p align="center">
-<img src="https://img.shields.io/badge/C++-Simulation-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-<img src="https://img.shields.io/badge/iOS-Port-000000?style=for-the-badge&logo=apple&logoColor=white">
-</p></td>
+<br><p align="center"><img src="https://img.shields.io/badge/C++-Simulation-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
+<img src="https://img.shields.io/badge/iOS-Port-000000?style=for-the-badge&logo=apple&logoColor=white"></p></td>
 </tr>
 </table><table>
 <tr>
@@ -135,7 +131,9 @@ Simulation
 
 GitHub
 
-<div align="center"><img height="170" src="https://github-readme-stats.vercel.app/api?username=NyerahMT&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" /><br><img src="https://github-readme-streak-stats.herokuapp.com/?user=NyerahMT&hide_border=true" /></div>---
+<div align="center"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=NyerahMT&theme=github_dark" /><br><br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=NyerahMT&hide_border=true&theme=github-dark-blue" /></div>---
 
 <div align="center"><br>Have fun.
 
