@@ -195,29 +195,21 @@ I mostly picked it up because GPU compute looked interesting and I wanted to und
 
 <!-- AUTO-STATS:START -->
 <div align="center">
-
-<img src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/main/assets/development-activity.svg" width="520">
-
+<img src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/main/assets/development-activity.svg" width="560">
 </div>
 
-<br>
-
-| Active Port | Authored Commits | Ahead of Upstream |
+| Active Port | Port Commits | GitHub Attributed |
 |:---|---:|---:|
 | **Engine Simulator iOS** | 104 | 104 |
-| **Principia iOS** | 8 | 49 |
-| **Fluid Engine Swift** | 2 | 23 |
-
-<div align="center">
-
-**0** original-repo commits · **114** fork/port commits · **114** total authored commits
+| **Principia iOS** | 49 | 8 |
+| **Fluid Engine Swift** | 23 | 2 |
+| **Total** | **176** | **114** |
 
 <sub>
-Commit totals are calculated directly from repository history.
-"Ahead of upstream" shows how far each port's default branch currently diverges from its parent repository.
+Port commits are commits currently ahead of each repository's upstream.
+GitHub Attributed counts commits GitHub directly associates with my account.
+These metrics overlap and are not added together.
 </sub>
-
-</div>
 <!-- AUTO-STATS:END -->
 
 ---
