@@ -153,7 +153,6 @@ An older **Swift / Metal fluid simulator** I found and brought back into a worki
 # `> DEVELOPMENT ACTIVITY`
 
 <!-- AUTO-STATS:START -->
-
 <div align="center">
 
 <img
@@ -163,18 +162,17 @@ width="720"
 
 </div>
 
-| PORT | COMMITS AHEAD | GITHUB ATTRIBUTED |
+| Port | Commits ahead | GitHub attributed |
 |:---|---:|---:|
-| **Engine Simulator iOS** | `113` | `113` |
-| **Fluid Engine Swift** | `23` | `2` |
-| **TOTAL** | **136** | **115** |
+| **Engine Simulator iOS** | 113 | 113 |
+| **Fluid Engine Swift** | 23 | 2 |
+| **Total** | **136** | **115** |
 
 <sub>
-"Commits ahead" measures development currently added beyond upstream.  
-"GitHub attributed" counts commits GitHub directly associates with my account.  
+"Commits ahead" measures development currently added beyond upstream.
+"GitHub attributed" counts commits GitHub directly associates with my account.
 The two metrics overlap.
 </sub>
-
 <!-- AUTO-STATS:END -->
 
 ---
