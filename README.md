@@ -120,9 +120,9 @@ width="720"
 
 | Port | Commits ahead | GitHub attributed |
 |:---|---:|---:|
-| **Engine Simulator iOS** | 106 | 106 |
+| **Engine Simulator iOS** | 107 | 107 |
 | **Fluid Engine Swift** | 23 | 2 |
-| **Total** | **129** | **108** |
+| **Total** | **130** | **109** |
 
 <sub>
 "Commits ahead" measures development currently added beyond upstream.
