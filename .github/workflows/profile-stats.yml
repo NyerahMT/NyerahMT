@@ -2,10 +2,8 @@ name: Update Profile Stats
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "17 * * * *"
-
   push:
     branches:
       - main
@@ -25,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout profile repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -38,7 +36,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/update_profile.py
 
-      - name: Commit updated statistics
+      - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -46,7 +44,7 @@ jobs:
           git add README.md assets/development-activity.svg
 
           if git diff --cached --quiet; then
-            echo "No statistics changed."
+            echo "No changes."
             exit 0
           fi
 
