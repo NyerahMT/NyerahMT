@@ -194,7 +194,30 @@ I mostly picked it up because GPU compute looked interesting and I wanted to und
 # Development Activity
 
 <!-- AUTO-STATS:START -->
-Statistics are generating...
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/main/assets/development-activity.svg" width="520">
+
+</div>
+
+<br>
+
+| Active Port | Authored Commits | Ahead of Upstream |
+|:---|---:|---:|
+| **Engine Simulator iOS** | 104 | 104 |
+| **Principia iOS** | 8 | 49 |
+| **Fluid Engine Swift** | 2 | 23 |
+
+<div align="center">
+
+**0** original-repo commits · **114** fork/port commits · **114** total authored commits
+
+<sub>
+Commit totals are calculated directly from repository history.
+"Ahead of upstream" shows how far each port's default branch currently diverges from its parent repository.
+</sub>
+
+</div>
 <!-- AUTO-STATS:END -->
 
 ---
