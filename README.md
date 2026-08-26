@@ -267,7 +267,6 @@ Real-Time Systems
 <img src="https://img.shields.io/badge/CURIOSITY-ONLINE-22c55e?style=flat-square">
 <img src="https://img.shields.io/badge/SIMULATION-RUNNING-0ea5e9?style=flat-square">
 <img src="https://img.shields.io/badge/BUGS-INEVITABLE-f59e0b?style=flat-square">
-<img src="https://img.shields.io/badge/HAVE_FUN-ENABLED-38bdf8?style=flat-square">
 
 <br><br><br>
 
