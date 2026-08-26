@@ -119,10 +119,15 @@ Uses **Metal compute shaders** and **Grand Central Dispatch** for parallel fluid
 
 <!-- AUTO-STATS:START -->
 <div align="center">
-<img src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/main/assets/development-activity.svg" width="560">
+
+<img
+src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/main/assets/development-activity.svg"
+width="720"
+/>
+
 </div>
 
-| Active Port | Port Commits | GitHub Attributed |
+| Port | Commits ahead | GitHub attributed |
 |:---|---:|---:|
 | **Engine Simulator iOS** | 104 | 104 |
 | **Principia iOS** | 49 | 8 |
@@ -130,9 +135,9 @@ Uses **Metal compute shaders** and **Grand Central Dispatch** for parallel fluid
 | **Total** | **176** | **114** |
 
 <sub>
-Port commits are commits currently ahead of each repository's upstream.
-GitHub Attributed counts commits GitHub directly associates with my account.
-These metrics overlap and are not added together.
+"Commits ahead" measures development currently added beyond upstream.
+"GitHub attributed" counts commits GitHub directly associates with my account.
+The two metrics overlap.
 </sub>
 <!-- AUTO-STATS:END -->
 
