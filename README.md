@@ -24,11 +24,28 @@
 
 ---
 
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=NyerahMT&show_icons=true&hide_border=true&bg_color=07111f&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&ring_color=00a8e8&include_all_commits=true" height="165"/>
+<img src="https://streak-stats.demolab.com?user=NyerahMT&hide_border=true&background=07111f&ring=00a8e8&fire=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&stroke=0d2038" height="165"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NyerahMT&layout=compact&hide_border=true&bg_color=07111f&title_color=38bdf8&text_color=e2e8f0&langs_count=8" height="165"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=NyerahMT&bg_color=07111f&color=38bdf8&line=00a8e8&point=7dd3fc&area=true&hide_border=true&custom_title=Activity"/>
+
+</div>
+
+---
+
 # `> ABOUT`
 
-I work in **nuclear fabrication** and spend much of my free time pulling apart software, simulations, mechanical systems, and anything else interesting enough to understand from the inside out.
+I spend much of my free time pulling apart software, simulations, mechanical systems, and anything else interesting enough to understand from the inside out.
 
-My development work tends to live around the ugly parts of a system — the places where platforms, rendering, physics, hardware, performance, and architecture start interacting.
+My development work tends to live around the ugly parts of a system. The places where platforms, rendering, physics, hardware, performance, and architecture start interacting.
 
 <div align="center">
 
@@ -173,6 +190,22 @@ width="720"
 The two metrics overlap.
 </sub>
 <!-- AUTO-STATS:END -->
+
+---
+
+# `> CONTRIBUTION SNAKE`
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NyerahMT/NyerahMT/output/github-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NyerahMT/NyerahMT/output/github-snake.svg"/>
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/output/github-snake-dark.svg"/>
+</picture>
+
+<sub>Updates daily after Actions → Generate Snake has run once.</sub>
+
+</div>
 
 ---
 
