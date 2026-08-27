@@ -91,7 +91,7 @@ Development Activity
 </text>
 
 <text x="26" y="59" class="subtitle">
-Live repository history · 2 active ports
+Live repository history · 1 active ports
 </text>
 
 <!-- floor -->
@@ -106,18 +106,18 @@ Live repository history · 2 active ports
 <g>
     <polygon
         points="
-            120,85
-            138,73
-            230,73
-            212,85
+            120,184
+            138,172
+            230,172
+            212,184
         "
         fill="#79c0ff"
     />
 
     <polygon
         points="
-            212,85
-            230,73
+            212,184
+            230,172
             230,216
             212,228
         "
@@ -126,19 +126,19 @@ Live repository history · 2 active ports
 
     <rect
         x="120"
-        y="85"
+        y="184"
         width="92"
-        height="143"
+        height="44"
         rx="3"
         fill="#1f6feb"
     />
 
     <text
         x="166.0"
-        y="63"
+        y="162"
         text-anchor="middle"
         class="number"
-    >162</text>
+    >23</text>
 
     <text
         x="173.0"
@@ -153,18 +153,18 @@ Live repository history · 2 active ports
 <g>
     <polygon
         points="
-            310,102
-            328,90
-            420,90
-            402,102
+            310,199
+            328,187
+            420,187
+            402,199
         "
         fill="#d2a8ff"
     />
 
     <polygon
         points="
-            402,102
-            420,90
+            402,199
+            420,187
             420,216
             402,228
         "
@@ -173,19 +173,19 @@ Live repository history · 2 active ports
 
     <rect
         x="310"
-        y="102"
+        y="199"
         width="92"
-        height="126"
+        height="29"
         rx="3"
         fill="#8957e5"
     />
 
     <text
         x="356.0"
-        y="80"
+        y="177"
         text-anchor="middle"
         class="number"
-    >138</text>
+    >2</text>
 
     <text
         x="363.0"
@@ -200,18 +200,18 @@ Live repository history · 2 active ports
 <g>
     <polygon
         points="
-            500,224
-            518,212
-            610,212
-            592,224
+            500,85
+            518,73
+            610,73
+            592,85
         "
         fill="#56d364"
     />
 
     <polygon
         points="
-            592,224
-            610,212
+            592,85
+            610,73
             610,216
             592,228
         "
@@ -220,19 +220,19 @@ Live repository history · 2 active ports
 
     <rect
         x="500"
-        y="224"
+        y="85"
         width="92"
-        height="4"
+        height="143"
         rx="3"
         fill="#238636"
     />
 
     <text
         x="546.0"
-        y="202"
+        y="63"
         text-anchor="middle"
         class="number"
-    >0</text>
+    >166</text>
 
     <text
         x="553.0"
