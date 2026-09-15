@@ -15,8 +15,8 @@ ASSETS = Path("assets")
 ASSETS.mkdir(exist_ok=True)
 
 PORT_LABELS = {
-    "engine-sim-ios": "Engine Simulator iOS",
-    "principia": "Principia iOS",
+    "rigs-of-rods-ios": "Rigs of Rods iOS",
+    "principia-ios": "Principia iOS",
     "fluid-engine-swift": "Fluid Engine Swift",
 }
 
