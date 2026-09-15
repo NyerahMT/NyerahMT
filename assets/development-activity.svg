@@ -91,7 +91,7 @@ Development Activity
 </text>
 
 <text x="26" y="59" class="subtitle">
-Live repository history · 1 active ports
+Live repository history · 3 active ports
 </text>
 
 <!-- floor -->
@@ -106,18 +106,18 @@ Live repository history · 1 active ports
 <g>
     <polygon
         points="
-            120,195
-            138,183
-            230,183
-            212,195
+            120,188
+            138,176
+            230,176
+            212,188
         "
         fill="#79c0ff"
     />
 
     <polygon
         points="
-            212,195
-            230,183
+            212,188
+            230,176
             230,216
             212,228
         "
@@ -126,19 +126,19 @@ Live repository history · 1 active ports
 
     <rect
         x="120"
-        y="195"
+        y="188"
         width="92"
-        height="33"
+        height="40"
         rx="3"
         fill="#1f6feb"
     />
 
     <text
         x="166.0"
-        y="173"
+        y="166"
         text-anchor="middle"
         class="number"
-    >23</text>
+    >56</text>
 
     <text
         x="173.0"
@@ -153,18 +153,18 @@ Live repository history · 1 active ports
 <g>
     <polygon
         points="
-            310,200
-            328,188
-            420,188
-            402,200
+            310,192
+            328,180
+            420,180
+            402,192
         "
         fill="#d2a8ff"
     />
 
     <polygon
         points="
-            402,200
-            420,188
+            402,192
+            420,180
             420,216
             402,228
         "
@@ -173,19 +173,19 @@ Live repository history · 1 active ports
 
     <rect
         x="310"
-        y="200"
+        y="192"
         width="92"
-        height="28"
+        height="36"
         rx="3"
         fill="#8957e5"
     />
 
     <text
         x="356.0"
-        y="178"
+        y="170"
         text-anchor="middle"
         class="number"
-    >2</text>
+    >35</text>
 
     <text
         x="363.0"
