@@ -1,173 +1,177 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=180&color=0:07111f,50:0d2038,100:00a8e8&text=MATTHEW%20TALAFOUS&fontColor=ffffff&fontSize=42&fontAlignY=35&desc=MECHANICAL%20SYSTEMS%20%E2%80%A2%20SIMULATION%20%E2%80%A2%20iOS&descAlignY=56&descSize=15&animation=fadeIn"/>
+<img src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/main/assets/profile-hero.svg" width="100%" alt="Matthew Talafous — real-time simulation, iOS porting, and mechanical systems" />
 
 <br>
 
-### Nuclear Welder · iOS Porting · Simulation · Mechanical Systems
+**Mechanical TIG welder · Independent developer · NyerahWorks**
+
+I build and port software where **physics, rendering, platform architecture, and real hardware behavior** meet.
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2600&pause=800&color=38BDF8&center=true&vCenter=true&width=760&height=55&lines=C%2B%2B+%7C+Swift+%7C+Metal+%7C+OpenGL;Physics+%7C+Simulation+%7C+Mechanical+Systems;Porting+%7C+Debugging+%7C+Performance;Build+it.+Break+it.+Understand+it." />
-
-<br>
-
-<img src="https://img.shields.io/badge/FOCUS-REAL--TIME_SYSTEMS-0ea5e9?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PLATFORM-iOS-111827?style=for-the-badge&logo=apple&logoColor=white"/>
-<img src="https://img.shields.io/badge/MINDSET-HAVE_FUN-0284c7?style=for-the-badge"/>
-
-<br><br>
-
-**`BUILD → TEST → BREAK → UNDERSTAND → IMPROVE`**
+<a href="https://github.com/NyerahMT/Critical-State"><img src="https://img.shields.io/badge/Critical_State-active-22c55e?style=flat-square" alt="Critical State active" /></a>
+<a href="https://github.com/NyerahMT/rigs-of-rods-ios"><img src="https://img.shields.io/badge/Rigs_of_Rods-iOS_port-38bdf8?style=flat-square" alt="Rigs of Rods iOS port" /></a>
+<a href="https://github.com/NyerahMT/principia-ios"><img src="https://img.shields.io/badge/Principia-iOS_port-2563eb?style=flat-square" alt="Principia iOS port" /></a>
+<a href="https://github.com/NyerahMT/engine-sim-ios"><img src="https://img.shields.io/badge/Engine_Simulator-iOS_port-6366f1?style=flat-square" alt="Engine Simulator iOS port" /></a>
 
 </div>
 
 ---
 
-<div align="center">
+## What I build
 
-<img src="https://github-readme-stats.vercel.app/api?username=NyerahMT&show_icons=true&hide_border=true&bg_color=07111f&title_color=38bdf8&icon_color=38bdf8&text_color=e2e8f0&ring_color=00a8e8&include_all_commits=true" height="165"/>
-<img src="https://streak-stats.demolab.com?user=NyerahMT&hide_border=true&background=07111f&ring=00a8e8&fire=38bdf8&currStreakLabel=38bdf8&sideLabels=94a3b8&dates=64748b&stroke=0d2038" height="165"/>
+Most of my work lives in the part of software where abstractions stop being clean.
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NyerahMT&layout=compact&hide_border=true&bg_color=07111f&title_color=38bdf8&text_color=e2e8f0&langs_count=8" height="165"/>
+I work on **real-time simulation, desktop-to-mobile ports, graphics, input systems, performance, and platform integration** — especially software that represents something physical: vehicles, engines, machines, fluids, reactors, or other coupled systems.
 
-</div>
+My mechanical background strongly influences how I approach software. I care about causality, constraints, failure modes, instrumentation, and whether a system behaves for the right reason instead of merely producing the right-looking output.
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=NyerahMT&bg_color=07111f&color=38bdf8&line=00a8e8&point=7dd3fc&area=true&hide_border=true&custom_title=Activity"/>
-
-</div>
-
----
-
-# `> ABOUT`
-
-I spend much of my free time pulling apart software, simulations, mechanical systems, and anything else interesting enough to understand from the inside out.
-
-My development work tends to live around the ugly parts of a system. The places where platforms, rendering, physics, hardware, performance, and architecture start interacting.
-
-<div align="center">
-
-<br>
-
-`PLATFORM PORTS` · `RENDERING` · `PHYSICS` · `PERFORMANCE`
-
-`INPUT` · `GPU COMPUTE` · `DEBUGGING` · `SIMULATION`
-
-<br>
-
-</div>
-
-I'm especially interested in software that has to **represent or interact with something physical**.
+```text
+physical system  →  model  →  solver  →  platform  →  rendering / input  →  user
+      ↑                                                               ↓
+      └──────────────────── observe, test, refine ────────────────────┘
+```
 
 ---
 
-# `> CURRENT PROJECTS`
+## Selected work
 
 <table>
 <tr>
-
 <td width="50%" valign="top">
 
-<h2 align="center">⚙️ Principia iOS</h2>
+<h3>⚛️ Critical State</h3>
 
-<p align="center">
-<strong>Physics sandbox / engineering simulator</strong>
-</p>
+<strong>Coupled nuclear power-plant simulation game</strong>
 
-Porting and maintaining an iOS build of **Principia** — a sandbox combining rigid-body mechanics, electronics, robotics, sensors, logic systems, Lua scripting, and user-built machinery.
+A mobile-first reduced-order PWR simulator built as a connected physical system rather than a collection of scripted gauges. The model couples reactor kinetics, thermal response, primary hydraulics, steam generation, turbine-generator dynamics, condenser behavior, feedwater, protection, equipment condition, and plant economics.
 
-<h3>PORT WORK</h3>
-
-<code>C++</code> · <code>OpenGL ES</code> · <code>Touch Input</code><br>
-<code>UI Adaptation</code> · <code>Lifecycle</code> · <code>Filesystem</code><br>
-<code>Performance</code> · <code>Platform Integration</code>
+<code>Kotlin</code> <code>Real-time simulation</code> <code>Thermodynamics</code> <code>Systems modeling</code>
 
 <br><br>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/C++-Principia-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-<img src="https://img.shields.io/badge/iOS-Port-000000?style=for-the-badge&logo=apple&logoColor=white">
-
-<br><br>
-
-<a href="https://github.com/NyerahMT/principia-ios">
-<img src="https://img.shields.io/badge/VIEW_REPOSITORY-0ea5e9?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</p>
+<a href="https://github.com/NyerahMT/Critical-State"><strong>View project →</strong></a>
 
 </td>
-
 <td width="50%" valign="top">
 
-<h2 align="center">🔥 Engine Simulator iOS</h2>
+<h3>🚙 Rigs of Rods iOS</h3>
 
-<p align="center">
-<strong>Real-time combustion engine simulation</strong>
-</p>
+<strong>iOS port of the open-source soft-body vehicle simulator</strong>
 
-iOS adaptation of **Engine Simulator**, modeling crankshaft dynamics, cylinder pressure, combustion, airflow, ignition, valvetrain behavior, and procedural engine audio.
+Current porting work on a large C++ simulation codebase with a much wider surface area than a typical mobile app: rendering, input, filesystem assumptions, platform dependencies, content loading, and the existing vehicle/terrain ecosystem all have to survive the move to iOS.
 
-<h3>PORT WORK</h3>
-
-<code>C++</code> · <code>iOS</code> · <code>Rendering</code><br>
-<code>Controls</code> · <code>Performance</code> · <code>Stability</code><br>
-<code>Engine Loading</code> · <code>Platform Integration</code>
+<code>C++</code> <code>iOS</code> <code>OGRE</code> <code>Porting</code> <code>Soft-body physics</code>
 
 <br><br>
-
-<p align="center">
-
-<img src="https://img.shields.io/badge/C++-Simulation-00599C?style=for-the-badge&logo=cplusplus&logoColor=white">
-<img src="https://img.shields.io/badge/iOS-Port-000000?style=for-the-badge&logo=apple&logoColor=white">
-
-<br><br>
-
-<a href="https://github.com/NyerahMT/engine-sim-ios">
-<img src="https://img.shields.io/badge/VIEW_REPOSITORY-0ea5e9?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-</p>
+<a href="https://github.com/NyerahMT/rigs-of-rods-ios"><strong>View project →</strong></a>
 
 </td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
+<h3>⚙️ Principia iOS</h3>
+
+<strong>Physics sandbox / engineering simulator port</strong>
+
+An iOS adaptation of Principia, a sandbox built around rigid-body mechanics, electronics, robotics, sensors, logic, scripting, and user-built machinery. The port focuses on keeping the upstream architecture recognizable while handling iOS lifecycle, touch input, filesystem behavior, UI scaling, rendering, and performance.
+
+<code>C++</code> <code>OpenGL ES</code> <code>Touch input</code> <code>Lifecycle</code> <code>Platform integration</code>
+
+<br><br>
+<a href="https://github.com/NyerahMT/principia-ios"><strong>View project →</strong></a>
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🔥 Engine Simulator iOS</h3>
+
+<strong>Real-time combustion engine simulation on iOS</strong>
+
+An iOS adaptation of Engine Simulator, bringing its real-time crankshaft, combustion, airflow, valvetrain, ignition, and procedural audio simulation onto mobile while preserving the character of the original desktop project.
+
+<code>C++</code> <code>iOS</code> <code>Rendering</code> <code>Audio</code> <code>Performance</code>
+
+<br><br>
+<a href="https://github.com/NyerahMT/engine-sim-ios"><strong>View project →</strong></a>
+
+</td>
 </tr>
 </table>
 
-<br>
+---
+
+## Technical range
+
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### Simulation
+
+- Real-time physical systems
+- Mechanical / vehicle simulation
+- Engine and power-system models
+- Thermal-fluid behavior
+- Coupled subsystem architecture
+- Numerical stability and time stepping
+
+</td>
+<td width="33%" valign="top">
+
+### Platform
+
+- C++ desktop → iOS ports
+- Application lifecycle
+- Touch / controller input
+- Filesystem and asset loading
+- Dependency adaptation
+- Build and CI plumbing
+
+</td>
+<td width="33%" valign="top">
+
+### Graphics + compute
+
+- OpenGL / OpenGL ES
+- Metal
+- GPU compute
+- Real-time rendering
+- Performance debugging
+- Swift concurrency / GCD
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-## 🌊 Fluid Engine Swift
-
-**Swift / Metal fluid simulation**
-
-</div>
-
-An older **Swift / Metal fluid simulator** I found and brought back into a working state. It uses Metal compute shaders and Grand Central Dispatch for parallel fluid computation.
-
-<div align="center">
-
-<br>
-
-<img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white">
-<img src="https://img.shields.io/badge/Metal-GPU_COMPUTE-111827?style=for-the-badge&logo=apple&logoColor=white">
-<img src="https://img.shields.io/badge/GCD-CONCURRENCY-0f172a?style=for-the-badge">
+<img src="https://skillicons.dev/icons?i=cpp,swift,kotlin,python,lua,git,github&theme=dark" alt="C++, Swift, Kotlin, Python, Lua, Git and GitHub" />
 
 <br><br>
 
-<a href="https://github.com/NyerahMT/fluid-engine-swift">
-<img src="https://img.shields.io/badge/VIEW_REPOSITORY-0ea5e9?style=for-the-badge&logo=github&logoColor=white">
-</a>
+<code>C++</code> · <code>Swift</code> · <code>Kotlin</code> · <code>Metal</code> · <code>OpenGL / ES</code> · <code>Python</code> · <code>Lua</code>
 
 </div>
 
 ---
 
-# `> DEVELOPMENT ACTIVITY`
+## Smaller systems & experiments
+
+**[Fluid Engine Swift](https://github.com/NyerahMT/fluid-engine-swift)** — restored an older Swift / Metal fluid simulator using GPU compute and Grand Central Dispatch.
+
+**[Full Authority](https://github.com/NyerahMT/Full-Authority)** — archived flight-simulation prototype exploring realistic aircraft behavior, atmospheric effects, rendering, and mobile controls. Its experimentation ultimately fed into later simulation and porting work.
+
+---
+
+## Repository activity
+
+I care more about useful engineering than contribution-calendar cosmetics, but the profile repo still tracks some live development history automatically.
+
+<details>
+<summary><strong>Show live development activity</strong></summary>
+<br>
 
 <!-- AUTO-STATS:START -->
 <div align="center">
@@ -191,123 +195,14 @@ The two metrics overlap.
 </sub>
 <!-- AUTO-STATS:END -->
 
----
-
-# `> CONTRIBUTION SNAKE`
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NyerahMT/NyerahMT/output/github-snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NyerahMT/NyerahMT/output/github-snake.svg"/>
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/NyerahMT/NyerahMT/output/github-snake-dark.svg"/>
-</picture>
-
-<sub>Updates daily after Actions → Generate Snake has run once.</sub>
-
-</div>
-
----
-
-# `> STACK`
-
-<div align="center">
-
-### `LANGUAGES / TOOLS`
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=cpp,swift,python,lua,git,github,apple&theme=dark" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/METAL-GPU_COMPUTE-111827?style=flat-square&logo=apple">
-<img src="https://img.shields.io/badge/OpenGL-REAL_TIME_RENDERING-5586A4?style=flat-square&logo=opengl&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub_Actions-AUTOMATION-2088FF?style=flat-square&logo=githubactions&logoColor=white">
-<img src="https://img.shields.io/badge/iOS-PLATFORM-000000?style=flat-square&logo=apple&logoColor=white">
-
-<br><br>
-
-`C++` · `Swift` · `Metal` · `OpenGL / ES` · `Python` · `Lua`
-
-`GitHub Actions` · `GPU Compute` · `Real-Time Simulation`
-
-</div>
-
----
-
-# `> SYSTEMS`
-
-<table>
-<tr>
-
-<td width="33%" valign="top">
-
-<h3 align="center">⚙️ MECHANICAL</h3>
-
-Engines & Combustion<br>
-Welding Engineering<br>
-CAD / Mechanical Design<br>
-Control Systems<br>
-Nuclear Technology
-
-</td>
-
-<td width="33%" valign="top">
-
-<h3 align="center">💻 SOFTWARE</h3>
-
-C++ Systems Programming<br>
-Graphics & Rendering<br>
-GPU Compute<br>
-Platform Architecture<br>
-Performance & Debugging
-
-</td>
-
-<td width="33%" valign="top">
-
-<h3 align="center">📐 SIMULATION</h3>
-
-Physics Engines<br>
-Mechanical Simulation<br>
-Engine Simulation<br>
-Fluid Simulation<br>
-Real-Time Systems
-
-</td>
-
-</tr>
-</table>
+</details>
 
 ---
 
 <div align="center">
 
-# `> THE GENERAL PROCESS`
+### Build the model. Find the failure. Make it behave.
 
-<br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=1800&pause=650&color=38BDF8&center=true&vCenter=true&width=760&height=90&lines=Find+it+%E2%86%92+Understand+it+%E2%86%92+Build+it;Break+it+%E2%86%92+Fix+it+%E2%86%92+Improve+it;Repeat+until+it+behaves." />
-
-<br>
-
-### `SYSTEM STATUS`
-
-<img src="https://img.shields.io/badge/CURIOSITY-ONLINE-22c55e?style=flat-square">
-<img src="https://img.shields.io/badge/SIMULATION-RUNNING-0ea5e9?style=flat-square">
-<img src="https://img.shields.io/badge/BUGS-INEVITABLE-f59e0b?style=flat-square">
-
-<br><br><br>
-
-# **Have fun.**
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=NyerahMT&style=for-the-badge&label=PROFILE+VIEWS&color=0ea5e9" />
-
-<br><br>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=110&section=footer&color=0:00a8e8,50:0d2038,100:07111f"/>
+<sub>Mechanical systems · simulation · iOS porting</sub>
 
 </div>
