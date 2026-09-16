@@ -153,18 +153,18 @@ Live repository history · 3 active ports
 <g>
     <polygon
         points="
-            310,192
-            328,180
-            420,180
-            402,192
+            310,193
+            328,181
+            420,181
+            402,193
         "
         fill="#d2a8ff"
     />
 
     <polygon
         points="
-            402,192
-            420,180
+            402,193
+            420,181
             420,216
             402,228
         "
@@ -173,16 +173,16 @@ Live repository history · 3 active ports
 
     <rect
         x="310"
-        y="192"
+        y="193"
         width="92"
-        height="36"
+        height="35"
         rx="3"
         fill="#8957e5"
     />
 
     <text
         x="356.0"
-        y="170"
+        y="171"
         text-anchor="middle"
         class="number"
     >35</text>
@@ -232,7 +232,7 @@ Live repository history · 3 active ports
         y="63"
         text-anchor="middle"
         class="number"
-    >526</text>
+    >555</text>
 
     <text
         x="553.0"
