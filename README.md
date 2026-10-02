@@ -185,10 +185,10 @@ width="720"
 
 | Port | Commits ahead | GitHub attributed |
 |:---|---:|---:|
-| **Principia iOS** | 33 | 33 |
+| **Principia iOS** | 39 | 39 |
 | **Fluid Engine Swift** | 23 | 2 |
 | **Rigs of Rods iOS** | 0 | 0 |
-| **Total** | **56** | **35** |
+| **Total** | **62** | **41** |
 
 <sub>
 "Commits ahead" measures development currently added beyond upstream.
